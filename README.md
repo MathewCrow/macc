@@ -8,7 +8,7 @@ git clone https://github.com/MathewCrow/macc.git
 cd macc
 chmod +x install.sh
 sudo ./install.sh
-
+```
 USAGE:
 
 Select interface
