@@ -15,6 +15,7 @@ Customization: Option to specify your own, specific MAC address.
 ```bash
 git clone https://github.com/MathewCrow/macc.git
 cd macc
+cd mac_changer
 chmod +x install.sh
 sudo ./install.sh
 ```
