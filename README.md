@@ -1,6 +1,15 @@
 # MACC – MAC Changer by MathewCrow
 
-Terminal GUI MAC address changer for Kali Linux.
+MACC (MAC Address Changer) is a lightweight and fast tool designed for Kali Linux users that allows you to instantly change the MAC address of your network interface. Increase your privacy and online anonymity with a single command.
+
+🚀 Features
+Fast Change: Change your MAC address in seconds.
+
+Simplicity: Minimalist command-line interface.
+
+Security: The script automatically manages the interface's state (down/up).
+
+Customization: Option to specify your own, specific MAC address.
 
 ## Installation
 ```bash
