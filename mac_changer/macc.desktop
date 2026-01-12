@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MACC – MAC Changer
+Comment=MAC Changer by MathewCrow
+Exec=pkexec /usr/local/bin/macc
+Icon=network-wired
+Terminal=true
+Type=Application
+Categories=System;Network;
