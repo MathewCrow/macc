@@ -18,6 +18,10 @@ cd macc
 chmod +x install.sh
 sudo ./install.sh
 ```
+## Troubleshooting
+
+If the desktop icon doesn't respond after installation, ensure you have a PolicyKit agent installed (standard in Kali/GNOME). You can also try running update-desktop-database manually.
+
 ## USAGE:
 ```bash
 sudo macc
