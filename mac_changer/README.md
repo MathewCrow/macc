@@ -49,4 +49,26 @@ sudo macc
 <img width="1914" height="942" alt="restore" src="https://github.com/user-attachments/assets/86584ba4-0d67-4d4f-b353-2e8e108469ed" />
 <img width="475" height="94" alt="restore_result" src="https://github.com/user-attachments/assets/1a3024c6-de97-4871-9eaf-4b473ddc41e3" />
 
+## If macc.desktop doesnt work on your computer try do this:
+
+1. Moving the script to the system path
+
+```bash
+sudo cp macc /usr/local/bin/macc
+sudo chmod +x /usr/local/bin/macc
+```
+2. Installing the application icon
+
+```bash
+mkdir -p ~/.local/share/applications
+cp macc.desktop ~/.local/share/applications/
+chmod +x ~/.local/share/applications/macc.desktop
+```
+3. Refreshing the database (so that the menu "noticed" the changes)
+
+```bash
+update-desktop-database ~/.local/share/applications/
+```
+
+
 
